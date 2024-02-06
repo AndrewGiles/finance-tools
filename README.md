@@ -26,9 +26,9 @@ Gilez Financial Tools aims to simplify the process of parsing and visualizing tr
 
 To get started with Gilez Financial Tools, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/gilez-financial-tools.git`
+1. Clone the repository: `git clone https://github.com/AndrewGiles/finance-tools.git`
 2. Install dependencies: `npm install`
-3. Start the development server: `npm start`
+3. Start the development server: `npm run dev`
 
 ## Usage
 

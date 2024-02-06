@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gilez Financial Tools
+
+Welcome to the Gilez Financial Tools! This application is designed to help you parse Intuit Mint transactions into useful data and graphs.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+Gilez Financial Tools aims to simplify the process of parsing and visualizing transaction data from Intuit Mint. With this app, you can easily upload your Mint transactions in CSV format and convert them into a more structured format with additional features.
+
+## Features
+
+- **CSV Parsing:** Upload Mint transactions in CSV format and parse them into a structured data format.
+- **Data Enhancement:** Automatically add useful fields such as `TrueAmount` based on transaction type.
+- **Graphical Visualization:** Visualize your transactions with graphs and charts for better insights.
 
 ## Getting Started
 
-First, run the development server:
+To get started with Gilez Financial Tools, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository: `git clone https://github.com/your-username/gilez-financial-tools.git`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Access the web app through the provided URL or run it locally.
+2. Drag and drop your Mint transactions CSV file onto the designated area or use the file input to select a file.
+3. The app will process the file, enhance the data, and provide visualizations.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+- **React:** Frontend library for building user interfaces.
+- **Next.js:** React framework for server-rendered web applications.
+- **Tailwind CSS:** Utility-first CSS framework for styling.
+- **csv-parser:** Library for parsing CSV files.
+- **streamify-string:** Library for converting strings into readable streams.
+- **PapaParse:** CSV parsing library.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If you'd like to contribute to the project, please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](LICENSE).
